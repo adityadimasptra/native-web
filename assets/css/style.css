@@ -350,13 +350,13 @@ nav a {
     padding: 20px;
 }
 
-
-/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table-row;
     clear: both;
 }
+
+/* Custom scroll bar */
 
  *::-webkit-scrollbar-track
  {
@@ -376,7 +376,8 @@ nav a {
      background-color: #1aa3ff;
  }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/* Responsive layout */
+
 @media screen and (max-width: 1080px) {
     .photo-team {
         width: 150px;
